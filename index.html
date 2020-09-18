@@ -11,7 +11,7 @@
     <ul class="action-bar">
       <li>
         <form class="search-form" action="" method="POST">
-          <label for="search-input" class="display-none">Поиск по сайту</label><!--спрячу через visually hiden-->
+          <label for="search-input" class="display-none">Поиск по сайту</label>
           <input class="search-form__input" id="search-input" type="search" name=""
                  placeholder="Поиск по сайту">
           <button class="search-form__submit" type="submit">Найти</button>
@@ -198,25 +198,38 @@
     </div>
   </div>
 </main>
-<footer>
-  <a href="#"><h1>Device</h1></a>
-  <ul>
-    <li>
-      <button>Войти</button>
-    </li>
-    <li><a href="#">Сравнить</a></li>
-    <li><a href="#">Корзина</a></li>
-  </ul>
-  <ul>
-    <li><a href="#">Доставка</a></li>
-    <li><a href="#">Гарантия</a></li>
-    <li><a href="#">Контакты</a></li>
-  </ul>
-  <ul>
-    <li>г.Москва, ул.Строителей,15</li>
-    <li>Тел.+7(495)495-95-95</li>
-  </ul>
-  <img src="" alt="logo-academy">
+<footer class="footer">
+  <div class="footer-wrapper">
+    <a href="#"><img src="" alt="logo__img--yellow" width="164px" height="36px"></a>
+    <ul class="footer__action-list">
+      <li class="action-list__item"><a class="action-list__link" href="#">Войти</a></li>
+      <li class="action-list__item"><a class="action-list__link" href="#">Сравнить</a></li>
+      <li class="action-list__item"><a class="action-list__link" href="#">Корзина</a></li>
+    </ul>
+    <div class="footer__navigation-site">
+      <span class="footer__address">г. Москва, ул. Строителей, 15</span>
+      <ul class="navigation-clone">
+        <li><a class="navigation-clone__link" href="#">Доставка</a></li>
+        <li><a class="navigation-clone__link" href="#">Гарантия</a></li>
+        <li><a class="navigation-clone__link" href="#">Контакты</a></li>
+      </ul>
+      <span class="footer__tel">Тел.:<a class="tel-link" href="tel:+74954959595"
+      >+7(495)495-95-95</a></span>
+    </div>
+    <div class="footer__social">
+      <ul class="social-list">
+        <li><a class="social-list__link social__links--fb" href="https://www.facebook.com/"
+        ></a></li>
+        <li><a class="social-list__link social__links--ig" href="https://www.instagram.com/"
+               aria-label="Мы в Инстаграме"></a></li>
+        <li><a class="social-list__link social__links--tw" href="https://twitter.com/"
+               aria-label="Мы в Твитере"></a></li>
+      </ul>
+      <a class="footer__made-by" href="https://htmlacademy.ru">
+        <img class="made-by__logo" src="" alt="html-academy logo" width="27" height="35">
+      </a>
+    </div>
+  </div>
 </footer>
 </body>
 </html>
