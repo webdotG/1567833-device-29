@@ -41,22 +41,81 @@
   </div>
 </header>
 <main class="main">
-<div class="catalog-warapper">
-  <div class="catalog__page-top">
-    <h2 class="catalog__title">Моноподы для селфи</h2>
-    <ul class="breadcrumbs">
-      <li class="breadcrumbs__item">
-        <a class="breadcrumbs__link" href="index.html">Главная</a>
-      </li>
-      <li class="breadcrumbs__item">
-        <a class="breadcrumbs__link" href="catalog.html">Каталог товаров</a>
-      </li>
-      <li class="breadcrumbs__item">
-        <a class="breadcrumbs__link" href="#">Моноподы для селфи</a>
-      </li>
-    </ul>
+  <div class="catalog-warapper">
+    <div class="catalog__page-top">
+      <h2 class="catalog__title">Моноподы для селфи</h2>
+      <ul class="breadcrumbs">
+        <li class="breadcrumbs__item">
+          <a class="breadcrumbs__link" href="index.html">Главная</a>
+        </li>
+        <li class="breadcrumbs__item">
+          <a class="breadcrumbs__link" href="catalog.html">Каталог товаров</a>
+        </li>
+        <li class="breadcrumbs__item">
+          <a class="breadcrumbs__link" href="#">Моноподы для селфи</a>
+        </li>
+      </ul>
+    </div>
   </div>
-</div>
+  <div class="filters">
+    <div class="filters__price">
+      <h3 class="filters__title">Фильтр:</h3>
+      <form class="filters__price" action="" method="POST">
+        <h3 class="price__title">Стоимость</h3>
+        <div class="form-first__range">
+          <div class="range__bar">
+            <button class="range__from"></button>
+            <button class="range__to"></button>
+          </div>
+          <div class="range__inputs range-inputs">
+            <label class="range-input range-input--from">
+              от
+              <input class="range-input__text" name="price-from" type="text" placeholder="0" value="0">
+            </label>
+            <label class="range-input range-input--to">
+              до
+              <input class="range-input__text" name="price-to" type="text" placeholder="5000" value="5000">
+            </label>
+          </div>
+        </div>
+    </div>
+    <div class="filters-color">
+      <h3 class="filters__title">Цвет</h3>
+      <label class="filter-color__checkbox">
+        <input class="checkbox__control" type="checkbox" name="color" value="black" checked>
+        <div class="checkbox__label">Черный</div>
+      </label>
+      <label class="filter-color__checkbox">
+        <input class="checkbox__control" type="checkbox" name="color" value="white">
+        <div class="checkbox__label">Белый</div>
+      </label>
+      <label class="filter-color__checkbox">
+        <input class=" checkbox__control" type="checkbox" name="color" value="blue" checked>
+        <div class="checkbox__label">Синий</div>
+      </label>
+      <label class="filter-color__checkbox">
+        <input class="checkbox__control" type="checkbox" name="color" value="red" checked>
+        <div class="checkbox__label">Красный</div>
+      </label>
+      <label class="filter-color__checkbox">
+        <input class="checkbox__control" type="checkbox" name="color" value="pink">
+        <div class="checkbox__label">Розовый</div>
+      </label>
+    </div>
+    <div class="filters-bluetooth">
+      <h3 class="filters-form__title">Bluetooth</h3>
+      <label class="filter-bluetooth__radio">
+        <input class="radio__control" type="radio" name="bluetooth" checked value="on">
+        <div class="radio__label">Есть</div>
+      </label>
+      <label class="filter-bluetooth__radio">
+        <input class="radio__control" type="radio" name="bluetooth" value="off">
+        <div class="radio__label">Нет</div>
+      </label>
+    </div>
+    <button class="button" type="submit">Показать</button>
+    </form>
+  </div>
 </main>
 <footer class="footer">
   <div class="footer-wrapper">
