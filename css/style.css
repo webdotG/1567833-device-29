@@ -29,20 +29,28 @@
 }
 
 /* global*/
-a{
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
   text-decoration: none;
 }
 
-ul{
+ul {
   margin-left: 0;
 }
 
-li{
+li {
   list-style-type: none;
 }
 
-button{
+button {
   all: unset;
 }
 
-/**/
+/* style*/
+
