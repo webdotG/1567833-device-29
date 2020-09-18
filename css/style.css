@@ -1,3 +1,4 @@
+/*fonts*/
 
 @font-face {
   font-weight: 300;
@@ -27,6 +28,7 @@
   src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff");
 }
 
+/* global*/
 a{
   text-decoration: none;
 }
@@ -38,3 +40,9 @@ ul{
 li{
   list-style-type: none;
 }
+
+button{
+  all: unset;
+}
+
+/**/
